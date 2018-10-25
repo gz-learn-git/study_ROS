@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="sample_vs_code" name="talker" type="talker" />
+    <node pkg="sample_vs_code" name="listener" type="listener" />
+</launch>
