@@ -59,7 +59,7 @@ target_link_libraries(listener ${catkin_LIBRARIES})
 find_package(rostest REQUIRED)
 
 ## Add gtest based cpp test target and link libraries
-catkin_add_gtest(talker-test test/talker_test.cpp)
+catkin_add_gtest(talker-test test/talker_test.cpp src/talker.cpp)
 target_link_libraries(talker-test ${catkin_LIBRARIES})
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
